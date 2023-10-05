@@ -1,6 +1,6 @@
 {
   "name": "@mrozio/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "my shareable config for eslint",
   "main": "index.js",
   "repository": "mrozio13pl/eslint-config",
