@@ -16,7 +16,7 @@ module.exports = {
         'function-call-argument-newline': ['warn', 'consistent'],
         'function-paren-newline': 'off',
         'implicit-arrow-linebreak': ['warn', 'beside'],
-        indent: ['warn', 4],
+        indent: ['warn', 4, { SwitchCase: 1 }],
         'key-spacing': 'warn',
         'keyword-spacing': 'warn',
         'max-len': ['warn', { code: 120 }],
