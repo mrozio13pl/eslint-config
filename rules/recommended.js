@@ -22,7 +22,7 @@ module.exports = {
         'accessor-pairs': 'off',
         'arrow-body-style': 'off',
         'block-scoped-var': 'warn',
-        'consistent-return': 'error',
+        'consistent-return': 'off',
         curly: 'off',
         'dot-notation': 'warn',
         eqeqeq: ['error', 'allow-null'],

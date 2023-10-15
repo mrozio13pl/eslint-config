@@ -19,7 +19,7 @@ module.exports = {
         indent: ['warn', 4, { SwitchCase: 1 }],
         'key-spacing': 'warn',
         'keyword-spacing': 'warn',
-        'max-len': ['warn', { code: 120 }],
+        'max-len': 'off',
         'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1, maxBOF: 1 }],
         'no-trailing-spaces': 'error',
         'no-whitespace-before-property': 'warn',
