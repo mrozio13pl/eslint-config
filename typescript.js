@@ -7,5 +7,10 @@ module.exports = {
     extends: [
         './index.js',
         './rules/typescript.js'
-    ]
+    ],
+    settings: {
+        'import/parsers': {
+            '@typescript-eslint/parser': ['.ts', '.tsx']
+        }
+    }
 };
